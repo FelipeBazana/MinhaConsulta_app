@@ -4,8 +4,8 @@ import WelcomeScreen from '../screens/WelcomeScreen';
 import LoginScreen from '../screens/LoginScreen';
 import SignUpScreen from '../screens/SignUpScreen';
 import ConsultationsListScreen from '../screens/ConsultationsListScreen';
-import ScheduleConsultationScreen from '../screens/ScheduleConsultationScreen';
 import ConfirmAppointmentScreen from '../screens/ConfirmAppointmentScreen';
+import ScheduleConsultationScreen from '../screens/ScheduleConsultationScreen';
 
 // Definindo o RootStackParamList com todas as telas do projeto
 export type RootStackParamList = {
