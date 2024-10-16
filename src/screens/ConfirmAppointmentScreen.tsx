@@ -1,11 +1,11 @@
-import React from 'react';
-import { NativeBaseProvider, Box, Button, Center, Text } from 'native-base';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../navigation/AppNavigator'; // Importação da tipagem correta
+import React from "react";
+import { NativeBaseProvider, Box, Button, Center, Text } from "native-base";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { RootStackParamList } from "../navigation/AppNavigator"; // Importação da tipagem correta
 
 type ConfirmAppointmentScreenNavigationProp = NativeStackNavigationProp<
   RootStackParamList,
-  'ConfirmAppointment'
+  "ConfirmAppointment"
 >;
 
 type Props = {
@@ -18,7 +18,10 @@ const ConfirmAppointmentScreen = ({ navigation }: Props) => {
       <Center flex={1} bg="white">
         <Box>
           <Text>Consulta agendada com sucesso!</Text>
-          <Button mt={4} onPress={() => navigation.navigate('ConsultationsList')}>
+          <Button
+            mt={4}
+            onPress={() => navigation.navigate("ConsultationsList")}
+          >
             Voltar para Consultas
           </Button>
         </Box>
